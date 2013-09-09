@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA14ECF017DD9F2300FE46A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA14ECEF17DD9F2300FE46A2 /* UIKit.framework */; };
+		DA14ECF217DD9F2300FE46A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA14ECF117DD9F2300FE46A2 /* Foundation.framework */; };
+		DA14ECF417DD9F2300FE46A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA14ECF317DD9F2300FE46A2 /* CoreGraphics.framework */; };
+		DA14ECFA17DD9F2300FE46A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA14ECF817DD9F2300FE46A2 /* InfoPlist.strings */; };
+		DA14ECFC17DD9F2300FE46A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA14ECFB17DD9F2300FE46A2 /* main.m */; };
+		DA14ED0017DD9F2300FE46A2 /* tesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA14ECFF17DD9F2300FE46A2 /* tesAppDelegate.m */; };
+		DA14ED0217DD9F2300FE46A2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DA14ED0117DD9F2300FE46A2 /* Default.png */; };
+		DA14ED0417DD9F2300FE46A2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA14ED0317DD9F2300FE46A2 /* Default@2x.png */; };
+		DA14ED0617DD9F2300FE46A2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA14ED0517DD9F2300FE46A2 /* Default-568h@2x.png */; };
+		DA14ED0917DD9F2300FE46A2 /* tesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA14ED0817DD9F2300FE46A2 /* tesViewController.m */; };
+		DA14ED0C17DD9F2300FE46A2 /* tesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA14ED0A17DD9F2300FE46A2 /* tesViewController_iPhone.xib */; };
+		DA14ED0F17DD9F2300FE46A2 /* tesViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA14ED0D17DD9F2300FE46A2 /* tesViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA14ECEC17DD9F2300FE46A2 /* tes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA14ECEF17DD9F2300FE46A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA14ECF117DD9F2300FE46A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA14ECF317DD9F2300FE46A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA14ECF717DD9F2300FE46A2 /* tes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tes-Info.plist"; sourceTree = "<group>"; };
+		DA14ECF917DD9F2300FE46A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA14ECFB17DD9F2300FE46A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA14ECFD17DD9F2300FE46A2 /* tes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tes-Prefix.pch"; sourceTree = "<group>"; };
+		DA14ECFE17DD9F2300FE46A2 /* tesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tesAppDelegate.h; sourceTree = "<group>"; };
+		DA14ECFF17DD9F2300FE46A2 /* tesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tesAppDelegate.m; sourceTree = "<group>"; };
+		DA14ED0117DD9F2300FE46A2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DA14ED0317DD9F2300FE46A2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DA14ED0517DD9F2300FE46A2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DA14ED0717DD9F2300FE46A2 /* tesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tesViewController.h; sourceTree = "<group>"; };
+		DA14ED0817DD9F2300FE46A2 /* tesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tesViewController.m; sourceTree = "<group>"; };
+		DA14ED0B17DD9F2300FE46A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/tesViewController_iPhone.xib; sourceTree = "<group>"; };
+		DA14ED0E17DD9F2300FE46A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/tesViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA14ECE917DD9F2300FE46A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA14ECF017DD9F2300FE46A2 /* UIKit.framework in Frameworks */,
+				DA14ECF217DD9F2300FE46A2 /* Foundation.framework in Frameworks */,
+				DA14ECF417DD9F2300FE46A2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA14ECE317DD9F2300FE46A2 = {
+			isa = PBXGroup;
+			children = (
+				DA14ECF517DD9F2300FE46A2 /* tes */,
+				DA14ECEE17DD9F2300FE46A2 /* Frameworks */,
+				DA14ECED17DD9F2300FE46A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA14ECED17DD9F2300FE46A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA14ECEC17DD9F2300FE46A2 /* tes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA14ECEE17DD9F2300FE46A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA14ECEF17DD9F2300FE46A2 /* UIKit.framework */,
+				DA14ECF117DD9F2300FE46A2 /* Foundation.framework */,
+				DA14ECF317DD9F2300FE46A2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA14ECF517DD9F2300FE46A2 /* tes */ = {
+			isa = PBXGroup;
+			children = (
+				DA14ECFE17DD9F2300FE46A2 /* tesAppDelegate.h */,
+				DA14ECFF17DD9F2300FE46A2 /* tesAppDelegate.m */,
+				DA14ED0717DD9F2300FE46A2 /* tesViewController.h */,
+				DA14ED0817DD9F2300FE46A2 /* tesViewController.m */,
+				DA14ED0A17DD9F2300FE46A2 /* tesViewController_iPhone.xib */,
+				DA14ED0D17DD9F2300FE46A2 /* tesViewController_iPad.xib */,
+				DA14ECF617DD9F2300FE46A2 /* Supporting Files */,
+			);
+			path = tes;
+			sourceTree = "<group>";
+		};
+		DA14ECF617DD9F2300FE46A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA14ECF717DD9F2300FE46A2 /* tes-Info.plist */,
+				DA14ECF817DD9F2300FE46A2 /* InfoPlist.strings */,
+				DA14ECFB17DD9F2300FE46A2 /* main.m */,
+				DA14ECFD17DD9F2300FE46A2 /* tes-Prefix.pch */,
+				DA14ED0117DD9F2300FE46A2 /* Default.png */,
+				DA14ED0317DD9F2300FE46A2 /* Default@2x.png */,
+				DA14ED0517DD9F2300FE46A2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA14ECEB17DD9F2300FE46A2 /* tes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA14ED1217DD9F2300FE46A2 /* Build configuration list for PBXNativeTarget "tes" */;
+			buildPhases = (
+				DA14ECE817DD9F2300FE46A2 /* Sources */,
+				DA14ECE917DD9F2300FE46A2 /* Frameworks */,
+				DA14ECEA17DD9F2300FE46A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tes;
+			productName = tes;
+			productReference = DA14ECEC17DD9F2300FE46A2 /* tes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA14ECE417DD9F2300FE46A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = tes;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "小寺 貴士";
+			};
+			buildConfigurationList = DA14ECE717DD9F2300FE46A2 /* Build configuration list for PBXProject "tes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA14ECE317DD9F2300FE46A2;
+			productRefGroup = DA14ECED17DD9F2300FE46A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA14ECEB17DD9F2300FE46A2 /* tes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA14ECEA17DD9F2300FE46A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA14ECFA17DD9F2300FE46A2 /* InfoPlist.strings in Resources */,
+				DA14ED0217DD9F2300FE46A2 /* Default.png in Resources */,
+				DA14ED0417DD9F2300FE46A2 /* Default@2x.png in Resources */,
+				DA14ED0617DD9F2300FE46A2 /* Default-568h@2x.png in Resources */,
+				DA14ED0C17DD9F2300FE46A2 /* tesViewController_iPhone.xib in Resources */,
+				DA14ED0F17DD9F2300FE46A2 /* tesViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA14ECE817DD9F2300FE46A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA14ECFC17DD9F2300FE46A2 /* main.m in Sources */,
+				DA14ED0017DD9F2300FE46A2 /* tesAppDelegate.m in Sources */,
+				DA14ED0917DD9F2300FE46A2 /* tesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA14ECF817DD9F2300FE46A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA14ECF917DD9F2300FE46A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DA14ED0A17DD9F2300FE46A2 /* tesViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA14ED0B17DD9F2300FE46A2 /* en */,
+			);
+			name = tesViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		DA14ED0D17DD9F2300FE46A2 /* tesViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA14ED0E17DD9F2300FE46A2 /* en */,
+			);
+			name = tesViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA14ED1017DD9F2300FE46A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA14ED1117DD9F2300FE46A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA14ED1317DD9F2300FE46A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tes/tes-Prefix.pch";
+				INFOPLIST_FILE = "tes/tes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA14ED1417DD9F2300FE46A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tes/tes-Prefix.pch";
+				INFOPLIST_FILE = "tes/tes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA14ECE717DD9F2300FE46A2 /* Build configuration list for PBXProject "tes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA14ED1017DD9F2300FE46A2 /* Debug */,
+				DA14ED1117DD9F2300FE46A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA14ED1217DD9F2300FE46A2 /* Build configuration list for PBXNativeTarget "tes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA14ED1317DD9F2300FE46A2 /* Debug */,
+				DA14ED1417DD9F2300FE46A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA14ECE417DD9F2300FE46A2 /* Project object */;
+}
